@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".activity.CustomerInformationActivity">
+
+    <TextView
+        android:id="@+id/txtCusInfor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:text="@string/cus_infor"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtNameCus"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_below="@+id/txtCusInfor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:background="@drawable/design_edittext"
+        android:hint="@string/input_name_cus"
+        android:inputType="text"
+        android:paddingStart="@dimen/_20sdp"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_below="@+id/edtNameCus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:background="@drawable/design_edittext"
+        android:hint="@string/input_email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="@dimen/_20sdp"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/edtPhone"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_below="@+id/edtEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:background="@drawable/design_edittext"
+        android:hint="@string/input_phone"
+        android:inputType="number"
+        android:paddingStart="@dimen/_20sdp"
+        tools:ignore="RtlSymmetry,TextFields" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSubmit"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtPhone"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:backgroundTint="#18C51F"
+        android:text="@string/submit"
+        app:cornerRadius="@dimen/_8sdp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBack"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtPhone"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_marginEnd="@dimen/_50sdp"
+        android:backgroundTint="#E30E0E"
+        android:text="@string/back"
+        app:cornerRadius="@dimen/_8sdp" />
+
+</RelativeLayout>

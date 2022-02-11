@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Shop Game</string>
+    <string name="home">Trang Chủ</string>
+    <string name="game_hot">Game Hot</string>
+    <string name="nav_drawer_open">Mở Thanh Điều Hướng</string>
+    <string name="nav_drawer_close">Đóng Thanh Điều Hướng</string>
+    <string name="game_category">Thể Loại Game</string>
+    <string name="contact">Liên Hệ</string>
+    <string name="information">Thông Tin</string>
+    <string name="check_network">Bạn Hãy Kiểm Trả Lại Kết Nối Mạng</string>
+    <string name="game_desc">Mô Tả Game</string>
+    <string name="game_detail">Chi Tiết Game</string>
+    <string name="cart">Giỏ Hàng</string>
+    <string name="submit">Xác Nhận</string>
+    <string name="input_phone">Nhập SĐT</string>
+    <string name="input_email">Nhập Email</string>
+    <string name="input_name_cus">Nhập Tên Người Mua</string>
+    <string name="back">Trở Lại</string>
+    <string name="title_activity_information">InformationActivity</string>
+    <string name="title_activity_address">AddressActivity</string>
+    <string name="map_api_key"></string>
+    <string name="address_shop">30 Trần Phú, P. Mộ Lao, Hà Đông, Hà Nội, Việt Nam</string>
+    <string name="ptit">Học Viện Công Nghệ Bưu Chính Viễn Thông</string>
+    <string name="cart_empty">Giỏ Của Bạn Đang Trống</string>
+    <string name="total_price">Tổng Tiền :</string>
+    <string name="pay">Thanh Toán</string>
+    <string name="continue_buy">Tiếp Tục Mua</string>
+    <string name="name_dev">DEV : Nguyễn Minh Giang</string>
+    <string name="phone_dev">SĐT : 0388237564</string>
+    <string name="email_dev">Email : giangneymar99@gmail.com</string>
+    <string name="cus_infor">Thông Tin Khách Hàng</string>
+</resources>
